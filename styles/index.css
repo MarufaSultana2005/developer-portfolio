@@ -30,21 +30,18 @@
     background-color: #FFF8F3;
 }
 
-
-
-/* Nav styles */
-
 body {
     font-family: "Open Sans", sans-serif;
 }
+
+/* Nav styles */
 
 nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-left: 226px;
-    margin-right: 230px;
-    
+    margin-right: 180px;
 }
 
 .nav_title {
@@ -79,6 +76,7 @@ nav ul li a {
     display: flex;
     justify-content: space-between;
     margin-left: 230px;
+
 }
 
 .banner_content {
@@ -98,6 +96,7 @@ nav ul li a {
     font-size: 85px;
     font-weight: bold;
     color: var(--dark1);
+    margin-bottom: 20px;
 }
 
 .banner_description {

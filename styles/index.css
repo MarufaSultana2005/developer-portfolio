@@ -23,12 +23,16 @@
     --button_text_color: #FFFFFF;
 }
 
+/* Header styles */
+
 .header {
     background-image: url(../images/developer.png), url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position: center right calc(96%), bottom right;
     background-color: #FFF8F3;
 }
+
+/* Body styles */
 
 body {
     font-family: "Open Sans", sans-serif;
@@ -76,7 +80,6 @@ nav ul li a {
     display: flex;
     justify-content: space-between;
     margin-left: 230px;
-
 }
 
 .banner_content {
@@ -112,6 +115,8 @@ nav ul li a {
     margin-right: 38px;
 }
 
+/* Banner button styles */
+
 .button_one {
     background-color: var(--button_color);
     color: var(--button_text_color);
@@ -123,6 +128,15 @@ nav ul li a {
     border-radius: 5px;
 }
 
+.download {
+    background-image: url(../images/icons/downloads.png);
+    color: var(--white_color);
+    background-repeat: no-repeat;
+    background-position: 23px center;
+    background-size: 17px;
+    padding-left: 50px;
+}
+
 .button_two {
     background-color: transparent;
     color: var(--orange_color);
@@ -132,4 +146,14 @@ nav ul li a {
     font-weight: bold;
     cursor: pointer;
     border-radius: 5px;
+    background-image: url(../images/icons/phone-call.png);
+    background-repeat: no-repeat;
+    background-position: 15px center;
+    background-size: 18px;
+    padding-left: 40px;
+}
+
+.banner_buttons {
+    display: flex;
+    gap: 30px;
 }

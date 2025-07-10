@@ -88,19 +88,14 @@ nav ul li a {
     margin-bottom: 5px;
 }
 
-.banner_subtitle {
-    font-size: 45px;
-    font-weight: 600;
-    color: var(--dark2);
-    margin-bottom: 5px;
-}
-
 .banner_title {
     font-size: 85px;
     font-weight: bold;
     color: var(--dark1);
     margin-bottom: 20px;
 }
+
+
 
 .banner_description {
     font-size: 18px;
@@ -196,7 +191,6 @@ nav ul li a {
 .about_items {
     display: flex;
     justify-content: space-evenly;
-    flex-wrap: wrap;
     gap: 30px;
 }
 
@@ -267,3 +261,70 @@ nav ul li a {
     margin: 0;
     line-height: 28px;
 }
+
+/* Summery Section Styles */
+
+.summary {
+    margin: auto;
+}
+
+.summary_title {
+    font-size: 35px;
+    font-weight: bold;
+    color: var(--dark1);
+    text-align: center;
+    margin-top: 130px;
+    margin-bottom: 110px;
+}
+
+.summary_content {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 230px 0 230px;
+    gap: 25px;
+}
+
+.summary_subtitle {
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--dark2);
+    margin-bottom: 30px;
+}
+
+.sum_title {
+    font-size: 25px;
+    font-weight: bold;
+    color: var(--dark2);
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.institution {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--dark3);
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.sum_description {
+    font-size: 16px;
+    font-weight: normal;
+    color: var(--dark3);
+    line-height: 28px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    margin-right: 30px;
+}
+
+.summary_left {
+    align-items: flex-start;
+    width: 50%;
+}
+
+.summary_right {
+    align-items: flex-start;
+    width: 50%;
+}
+
+
